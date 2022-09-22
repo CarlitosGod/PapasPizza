@@ -9,7 +9,7 @@ package pizzeria;
  *
  * @author JAVIER
  */
-public class Pizzeria {
+public class App {
 
     /**
      * @param args the command line arguments

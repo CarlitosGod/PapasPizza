@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/decoradosInicio.css" type="text/css"/>
+    <title>Inicio</title>
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    
+</head>
+
+<body>
+
+  <h6 class="ui center aligned icon header menuI">
+    <div class="ui menu menuI">
+      
+        <img class="logo" src="img/Logo.png">
+      <div class="right menu">
+ 
+        <a href="Perfil.html" onclick="getPerfil()" class="item">Salir</a>
+        
+      </div>
+
+    </div>
+  </h6>
+
+  <div class="ui three doubling special cards espacio">
+    
+    <div class="card">
+      <div class="blurring dimmable image">
+        <div class="ui dimmer">
+          <div class="content">
+            <div class="center">
+              <a class="ui inverted button" href="Activos.html">PIDE YA</a>
+            </div>
+          </div>
+        </div>
+        <img src="img/Burger.jpg">
+      </div>
+      <div class="content menuI">
+        <a class="header center aligned" href="Activos.html">Hamburgusas</a>
+        <div class="meta">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <div class="blurring dimmable image">
+        <div class="ui dimmer">
+          <div class="content">
+            <div class="center">
+              <a class="ui inverted button" href="Juego.html">PIDE YA</a>
+            </div>
+          </div>
+        </div>
+        <img src="img/PerroCaliente.jpg">
+      </div>
+      <div class="content menuI">
+        <a class="header center aligned" href="Juego.html">Perros Calientes</a>
+        <div class="meta">
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="blurring dimmable image">
+        <div class="ui dimmer">
+          <div class="content">
+            <div class="center">
+              <a class="ui inverted button" href="PidePizza.html">PIDE YA</a>
+            </div>
+          </div>
+        </div>
+        <img src="img/Pizza.jpg">
+      </div>
+      <div class="content menuI">
+        <a class="header center aligned" href="PidePizza.html">Pizzas</a>
+        <div class="meta">
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" 
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" 
+      crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js">
+</script>
+<script>
+  $('.special.cards .image').dimmer({
+    on: 'hover'
+  });     
+</script>
+
+</body>
+</html>
