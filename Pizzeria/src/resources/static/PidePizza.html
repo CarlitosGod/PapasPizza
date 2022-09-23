@@ -8,7 +8,7 @@
   <title>Pizza</title>
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
   <link rel="stylesheet" href="css/decorados.css" type="text/css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
   <script src="js/signUpJS.js"></script>
@@ -23,52 +23,57 @@
     <h1 class="ui center aligned header titulo">
       Elige tus ingredientes
     </h1>
-    Ingrediente 1: 
+    Ingrediente 1:
     <select name="skills" id="P1" class="ui fluid selection dropdown fondoDrop">
       <option value="">Masa</option>
-    <option value="Napolitana">Napolitana</option>
-    <option value="Chicago">Chicago</option>
-    
+      <option value="Napolitana">Napolitana</option>
+      <option value="Chicago">Chicago</option>
+
     </select>
 
     <br>
 
-    Ingrediente 2: 
-    <select name="skills" id="P2" multiple="1" class="ui fluid selection dropdown fondoDrop">
+    Ingrediente 2:
+    <select name="skills" id="P2" class="ui fluid selection dropdown fondoDrop">
       <option value="">Vegetales</option>
-    <option value="lechuga">Maiz</option>
-    <option value="tomate">tomate</option>
-    <option value="cebolla">Champiñones</option>
-    <option value="Piña">Piña</option>
+      <option value="Maiz">Maiz</option>
+      <option value="tomate">tomate</option>
+      <option value="Champiñones">Champiñones</option>
+      <option value="Piña">Piña</option>
 
     </select>
 
-    <br>      
-    Ingrediente 3: 
-    <select name="skills" id="P3" multiple="" class="ui fluid selection dropdown fondoDrop">
+    <br>
+    Ingrediente 3:
+    <select name="skills" id="P3" class="ui fluid selection dropdown fondoDrop">
       <option value="">Carne</option>
-    <option value="Pepperoni">Pepperoni</option>
-    <option value="Salami">Salami</option>
-    <option value="Jamon">Jamon</option>
-    <option value="Molida">Carne Molida</option>
-    <option value="Salchica">Salchicha</option>
+      <option value="Pepperoni">Pepperoni</option>
+      <option value="Salami">Salami</option>
+      <option value="Jamon">Jamon</option>
+      <option value="Molida">Carne Molida</option>
+      <option value="Salchica">Salchicha</option>
     </select>
 
-    <br> 
+    <br>
 
-    Ingrediente 4: 
+    Ingrediente 4:
     <select name="skills" id="P4" class="ui fluid selection dropdown fondoDrop">
       <option value="">Salsas</option>
-    <option value="Tomate">Tomate casera</option>
+      <option value="Tomate casera">Tomate casera</option>
     </select>
   </center>
 
+  <div id="capa"></div>
+  <form>
+    <label for="texto"></label>
+  </form>
+
   <footer>
     <a>
-        <button onclick="sendData()" class="ui right floated inverted white massive button ">Siguiente</button>
+      <button onclick="sendData()" class="ui right floated inverted white massive button ">Siguiente</button>
     </a>
     <a href="Inicio.html">
-        <button class="ui left floated inverted white massive button">Cancelar</button>
+      <button class="ui left floated inverted white massive button">Cancelar</button>
     </a>
   </footer>
 
