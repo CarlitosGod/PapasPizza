@@ -1,51 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizza</title>
-    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
-    <link rel="stylesheet" href="css/decorados.css" type="text/css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgusa</title>
+  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+  <link rel="stylesheet" href="css/decorados.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <script src="js/signUpJS.js"></script>
 
 </head>
-<body>
-    <h1 class="ui center aligned header">
-        <img src="img/jinx.jpg" class="ui circular center image">    
-        Elige tus ingredientes
-    </h1>
 
-    <div class="ui three column grid fondoPad">
-        <div class="column">
-          <div class="ui fluid card">
-            <div class="image">
-              <img src="img/Aurelion.jpg">
-            </div>
-            <div class="content">
-              <a class="header">Daniel Louise</a>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui fluid card">
-            <div class="image">
-              <img src="img/Aurelion.jpg">
-            </div>
-            <div class="content">
-              <a class="header">Helen Troy</a>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="ui fluid card">
-            <div class="image">
-              <img src="img/Aurelion.jpg">
-            </div>
-            <div class="content">
-              <a class="header">Elliot Fu</a>
-            </div>
-          </div>
-        </div>
-      </div>
+<body>
+
+
+  <center>
+
+    <h1 class="ui center aligned header titulo">
+      Elige tus ingredientes
+    </h1>
+    Ingrediente 1: 
+    <select name="skills" id="P1" class="ui fluid selection dropdown fondoDrop">
+      <option value="">Pan</option>
+    <option value="Blanco">Blanco</option>
+    <option value="Integral">Integral</option>
+    
+    </select>
+
+    <br>
+
+    Ingrediente 2: 
+    <select name="skills" id="P2" multiple="" class="ui fluid selection dropdown fondoDrop">
+      <option value="">Vegetales</option>
+    <option value="lechuga">Lechuga</option>
+    <option value="tomate">tomate</option>
+    <option value="cebolla">cebolla</option>
+    
+    </select>
+
+    <br>      
+    Ingrediente 3: 
+    <select name="skills" id="P3" class="ui fluid selection dropdown fondoDrop">
+      <option value="">Carne</option>
+    <option value="Res">Res</option>
+    
+    </select>
+
+    <br> 
+
+    Ingrediente 4: 
+    <select name="skills" id="P4" multiple="" class="ui fluid selection dropdown fondoDrop">
+      <option value="">Salsas</option>
+    <option value="Tomate">Tomate</option>
+    <option value="Mayonesa">Mayonesa</option>
+    <option value="Mostaza">Mostaza</option>
+    <option value="Rosada">Rosada</option>
+    <option value="Piña">Piña</option>
+    </select>
+  </center>
+
+  <footer>
+    <a>
+        <button onclick="sendData()" class="ui right floated inverted white massive button ">Siguiente</button>
+    </a>
+    <a href="Inicio.html">
+        <button class="ui left floated inverted white massive button">Cancelar</button>
+    </a>
+  </footer>
+
+  <script>
+    $('.ui.dropdown').dropdown();
+  </script>
 </body>
+
+
+
 </html>

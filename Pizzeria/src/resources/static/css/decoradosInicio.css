@@ -1,22 +1,24 @@
 body{
-    background-color: rgb(18,3,48);
+    background-color: rgb(177, 0, 0);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 
 .menuI{
-    background: rgba(173,234, 96) !important;
+    background: rgba(179, 76, 76, 0.397) !important;
+}
+
+.titulo {
+    font-size: 70px !important;
+    padding: 15px !important;
+    color: white !important;
 }
 
 .logo{
     height: 100px !important;
     width: 285px !important;
     margin-left: 35px;
-}
-
-.item{
-    font-size: large;
 }
 
 .pez{
@@ -26,31 +28,7 @@ body{
     margin-right: 25% !important;
 }
 
-.conjunto{
-    background-color: transparent !important;
-    border-style: none;
-    box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0) !important;
-    -webkit-box-shadow: 0 1px 2px 0 rgba(253, 253, 253, 0) !important;
-    border: 0 !important;
-}
-.botones{
-    font-size: 30px !important;
-    padding-left: 20% !important; 
-    padding-right: 20% !important;
-    padding-top: 10% !important;
-    padding-bottom: 10% !important;
-    margin: 15% !important;
-    text-align: center !important;
-}
-
-footer{
-    vertical-align: bottom !important;
-    margin-right: 9% !important;
-    float:right !important;
-    list-style:none;
-}
-
 .espacio{
-    padding-top: 0%;
-    padding: 5%;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
 }
